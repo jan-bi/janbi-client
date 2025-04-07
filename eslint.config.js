@@ -20,6 +20,9 @@ export default [
         babelOptions: {
           presets: ["@babel/preset-react"],
         },
+        ecmaFeatures: {
+          jsx: true,
+        },
       },
       globals: globals.browser,
     },
